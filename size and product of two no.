@@ -1,0 +1,27 @@
+// size of datatypes 
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+cout << "size of int :" << sizeof(int) << "bytes" << "\n";
+cout << "size of float :" << sizeof(float) << "bytes" << "\n";
+cout << "size of double :" << sizeof(double)<< "bytes" << "\n";
+cout << "size of char :" << sizeof(char) << "bytes" << "\n";
+return 0;
+}
+
+// program to find tha product of two numbers
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float a=2.8;
+	float b=4.7;
+	float product= a*b;
+	cout<< "product of two numbers:" << product;
+	return 0; 
+}
